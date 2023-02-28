@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.carnaval{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #1215d3;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+span{
+    color: #00ff00;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    background: rgb(43, 45, 196);
+background: linear-gradient(90deg, rgb(43, 45, 196) 20%, rgba(0,255,0,1) 54%);
+}
+
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+img{
+    width: 700px;
+    padding-top: 20px;
+    padding-right: 90px;
+    padding-left: 80px;
+    margin-left: 660px;
+}
+
+
+.texto-h1{
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-p{
+    align-items: center;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
